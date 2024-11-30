@@ -184,8 +184,7 @@ html, body {
     font-weight: 900;
     font-size: 64px; 
     line-height: 130%;
-    max-width: 500px;
-    min-width: 445px;
+    width: 532px;
     margin-bottom: 60px;
 }
 
@@ -226,7 +225,7 @@ html, body {
 }
 
 .header__row-item:first-child {
-    min-width: 260px;
+    min-width: 285px;
 }
 
 .header__row-item span{
