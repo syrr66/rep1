@@ -379,6 +379,7 @@ html, body {
 }
 
 
+
 /* --------------------------------------------- */
 
 .services__heading {
@@ -471,6 +472,11 @@ html, body {
 }
 .tab-button-4 {
     background-color: #F52F6E;
+}
+.tab-button-5 {
+    background-color: #7772F1;
+}
+
 }
 .tab-button-5 {
     background-color: #7772F1;
