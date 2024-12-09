@@ -16,7 +16,7 @@ html, body {
     padding: 0 30px;
     height: 100%;
     margin: 0 auto;
-
+    box-sizing: border-box;
 }
 
 .button {    
@@ -28,6 +28,32 @@ html, body {
     color: #fff;
     border-radius: 4px;
     background: linear-gradient(56deg, #FF3F3A 0%, #F75E05 100%);
+    white-space: nowrap;
+    transition: 0.2s;
+}
+
+.btn {    
+    display: inline-block;
+    font-weight: 700;
+    letter-spacing: 0.5px;
+    line-height: 52px;    
+    padding: 0 40px;
+    color: #fff;
+    border-radius: 4px;
+    white-space: nowrap;
+    transition: 0.2s;
+}
+
+.transparent-button{
+    display: inline-block;
+    font-weight: 700;
+    letter-spacing: 0.5px;
+    line-height: 52px;    
+    padding: 0 40px;
+    color:#9A9CA5;
+    border-radius: 4px;
+    border: 2px solid #9a9ca5de;
+    background-color: #fff;
     white-space: nowrap;
     transition: 0.2s;
 }
@@ -54,9 +80,13 @@ html, body {
     transform: scale(1.1);
 }
 
-.container {
+.transparent-button:hover {
+    transform: scale(1.1);
 }
 
+.btn:hover{
+    transform: scale(1.1);
+}
 .heading {
     color: #1E212C;
     font-weight: 900;
@@ -72,6 +102,7 @@ html, body {
     font-weight: 700;
     font-size: 18px;
 }
+
 
 /* ------------------------------------------------------------- */
 
