@@ -19,6 +19,14 @@ html, body {
     box-sizing: border-box;
 }
 
+.main__about {
+    padding: 180px 0 160px;
+}
+
+.main__services {
+    padding-bottom: 112px;
+}
+
 .button {    
     display: inline-block;
     font-weight: 700;
@@ -287,7 +295,6 @@ html, body {
 /*======================================================================  */
 
 .about {
-    padding: 180px 0 160px;
     position: relative;
 }
 
@@ -416,10 +423,6 @@ html, body {
 .services__heading {
     margin: 0 auto 90px;
     text-align: center;
-}
-
-.services__body {
-    padding-bottom: 178px;
 }
 
 .services__body-buttons {
