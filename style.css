@@ -515,3 +515,46 @@ html, body {
 .tab-button-5 {
     background-color: #7772F1;
 }
+
+.services__certificate {
+    display: flex;
+    padding-top: 178px;
+    height:100%; 
+}
+
+.services__cetificate-info {
+    padding-right: 130px;
+    height:86%;
+}
+
+.services__certificate-heading {
+    width:392px;
+    padding-bottom:48px;
+}
+
+.services__certificate-description {
+    width: 390px;
+    padding-bottom: 32px;
+}
+
+.services__certificate-sponsors {
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.services__certificate-sponsors img {
+    padding-right: 40px;
+}
+
+.services__certificate-img{
+    height: 333px;
+}
+
+.services__certificate-img img{
+    transform: translateX(0);
+} 
+
+.about_us__our_team {
+    background-color: #F4F5F6;
+    min-height: 20vh;
+}
